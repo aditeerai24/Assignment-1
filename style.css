@@ -1,0 +1,285 @@
+
+*{
+    color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.div-first{
+    height: 40px;
+    width: 80%;
+    background-color:#D9D9D9;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.div-main{
+    margin-top: 0px;
+text-align: center;
+background-color:#F2F2F2;
+}
+
+header{
+    padding: 15px 0 !important;
+}
+.nav-link{
+    padding: 0 !important;
+    padding-bottom: 5px !important;
+}
+.nav-link.active{
+    border-bottom: 3px solid #f00;
+}
+
+.main-button{
+ padding: 12px 40px; 
+ border: none;
+ background-color: black;
+ color: aliceblue;
+ border-radius: 5px;
+ display: block;
+ margin: auto;
+
+}
+.div-services{
+    text-align: center; 
+background-color:#F2F2F2;
+padding-bottom: 50px;
+}
+.div-cards{
+    display: flex;
+   justify-content: space-evenly;
+}
+.cards-2{
+    display: flex;
+    justify-content:space-evenly;
+   
+}
+.cards-2 img{
+    border-radius: 50%;
+    min-height: 50px;
+    width: 50px;
+ display: block;
+ margin: auto;
+}
+h4{
+    text-align: center;
+}
+.div-footer a{
+text-decoration: none;
+padding: 25px;
+color: black;
+font-weight:bold;
+}
+.div-lastcircle{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.div1{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.div-last{
+   margin-right: 50%;
+}
+.card img{
+    object-fit: cover;
+    height: 200px;
+}
+
+.card2 img{
+    object-fit: cover;
+}
+
+.hero-section{
+    padding-top: 100px;
+    padding-bottom: 150px !important;
+}
+
+
+.hero-section h1{
+    font-weight: 700;
+}
+
+.div-whyus{
+    padding-top: 60px;
+background-color:#F2F2F2;
+}
+
+.cards-2 .card{
+    padding: 25px;
+}
+
+.div-blog{
+    padding-top: 70px;
+}
+
+footer{
+background-color:#F2F2F2;
+}
+
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+  }
+  
+  .navbar .brand-logo img {
+    max-width: 120px;
+  }
+  
+  .navbar-toggler {
+    display: none;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+  }
+  
+  /* @media (max-width: 768px) {
+    .navbar-toggler {
+      display: inline-block;
+    }
+  
+    .collapse {
+      display: none;
+    }
+  
+    .navbar-toggler[aria-expanded="true"] + .collapse {
+      display: block;
+    }
+  
+    .navbar-nav {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 15px;
+    background-color: #f4f4f4;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+ 
+  .div-cards .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    text-align: center;
+    padding: 15px;
+    
+  }
+  
+  .div-cards .card img {
+    max-height: 150px;
+    margin-bottom: 15px;
+  }
+  
+
+  
+  .div-cards .card-text {
+    font-size: 14px;
+  }
+  
+ 
+  .cards-2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .cards-2 .card2 {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cards-2 .card2 img {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  
+  footer {
+    background-color: #F2F2F2;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #ccc;
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  
+ 
+  @media (max-width: 992px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-section p {
+      font-size: 0.9rem;
+    }
+  
+    .cards-2 .card2 {
+      width: calc(100% - 30px);
+      margin: 0 auto;
+    }
+  
+    .div-cards .row {
+      gap: 20px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .hero-section h1 {
+      font-size: 1.8rem;
+    }
+  
+    .main-button {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+   */
